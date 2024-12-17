@@ -3,7 +3,8 @@ import streamlit as st
 from document_processor import DocumentProcessor, read_document
 
 def main():
-    st.title("Analisi Linguistica dei Documenti")
+    st.title("Virgilio - Generatore di Brand Content Guidelines")
+    st.write("Carica testi per generare linee guida sul tono di voce e il vocabolario del tuo brand.")
     
     # Configurazione API Key
     st.sidebar.header("Configurazione OpenAI")
